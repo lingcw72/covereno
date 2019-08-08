@@ -1,0 +1,1283 @@
+.primaryContainer {
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100%;
+    width: 100%;
+}
+
+iframe {
+        width: 1px;
+        min-width: 100%;
+        *width: 100%;
+		height: 1px;
+        min-height: 100%;
+        *height: 100%;
+    }
+	
+#image {
+    float: left;
+    width: 16.402321%;
+    max-width: 100%;
+    height: auto;
+    margin-left: 16.579477%;
+    margin-top: 0px;
+    clear: none;
+    color: rgb(0, 0, 0);
+    display: block;
+}
+
+#image1 {
+    float: left;
+    width: 16.595745%;
+    max-width: 100%;
+    height: auto;
+    margin-left: 0.29803823%;
+    margin-top: 0px;
+    clear: none;
+    color: rgb(0, 0, 0);
+    display: block;
+}
+
+#image2 {
+    float: left;
+    width: 16.479691%;
+    max-width: 100%;
+    height: auto;
+    margin-left: 0.30621227%;
+    margin-top: 0px;
+    clear: none;
+    color: rgb(0, 0, 0);
+    display: block;
+}
+
+#image3 {
+    float: left;
+    width: 16.403543%;
+    max-width: 100%;
+    height: auto;
+    margin-left: 0.30118209%;
+    margin-top: 0px;
+    clear: none;
+    color: rgb(0, 0, 0);
+    min-width: 0%;
+    display: block;
+}
+
+#Box {
+    float: left;
+    width: 100%;
+    height: auto;
+    margin-left: 0.10319416%;
+    margin-top: 0px;
+    clear: both;
+    color: rgb(0, 0, 0);
+    min-width: 0px;
+    background-image:url("img/Covereno_top_Fireworks_r2_c1_s1.jpg");
+    min-height: 635px;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+#Services {
+    float: left;
+    width: 29.916025%;
+    max-width: 100%;
+    height: auto;
+    margin-left: 35.076828%;
+    margin-top: 0px;
+    clear: both;
+    color: rgb(0, 0, 0);
+}
+
+#image4 {
+    float: left;
+    width: 29.846046%;
+    max-width: 100%;
+    height: auto;
+    margin-left: 20.027771%;
+    margin-top: 0px;
+    clear: both;
+    color: rgb(0, 0, 0);
+}
+
+#image5 {
+    float: left;
+    width: 29.811057%;
+    max-width: 100%;
+    height: auto;
+    margin-left: 0%;
+    margin-top: 0px;
+    clear: none;
+    color: rgb(0, 0, 0);
+}
+
+#image6 {
+    float: left;
+    width: 14.835549%;
+    max-width: 100%;
+    height: auto;
+    margin-left: 19.978605%;
+    margin-top: 0px;
+    clear: both;
+    color: rgb(0, 0, 0);
+}
+
+#image7 {
+    float: left;
+    width: 14.975507%;
+    max-width: 100%;
+    height: auto;
+    margin-left: 0.03444279%;
+    margin-top: 0px;
+    clear: none;
+    color: rgb(0, 0, 0);
+}
+
+#image8 {
+    float: left;
+    width: 14.940518%;
+    max-width: 100%;
+    height: auto;
+    margin-left: 0.03553621%;
+    margin-top: 0px;
+    clear: none;
+    color: rgb(0, 0, 0);
+}
+
+#image9 {
+    float: left;
+    width: 14.905528%;
+    max-width: 100%;
+    height: auto;
+    margin-left: 0.03553621%;
+    margin-top: 0px;
+    clear: none;
+    color: rgb(0, 0, 0);
+}
+
+#image10 {
+    float: left;
+    width: 29.846046%;
+    max-width: 100%;
+    height: auto;
+    margin-left: 34.779132%;
+    margin-top: 0px;
+    clear: both;
+    color: rgb(0, 0, 0);
+}
+
+#Testimonial {
+    float: left;
+    width: 29.916025%;
+    max-width: 100%;
+    height: auto;
+    margin-left: 34.952563%;
+    margin-top: 0px;
+    clear: both;
+    color: rgb(0, 0, 0);
+}
+
+#Contact {
+    float: left;
+    width: 44.751575%;
+    max-width: 100%;
+    height: auto;
+    margin-left: 27.55392%;
+    margin-top: 1px;
+    clear: both;
+    color: rgb(0, 0, 0);
+}
+
+#image11 {
+    float: left;
+    width: 14.835549%;
+    max-width: 100%;
+    height: auto;
+    margin-left: 20.082339%;
+    margin-top: 7px;
+    clear: both;
+    color: rgb(0, 0, 0);
+}
+
+#image12 {
+    float: left;
+    width: 15.010497%;
+    max-width: 100%;
+    height: auto;
+    margin-left: 0.00054028%;
+    margin-top: 7px;
+    clear: none;
+    color: rgb(0, 0, 0);
+}
+
+#image13 {
+    float: left;
+    width: 14.905528%;
+    max-width: 100%;
+    height: auto;
+    margin-left: 0.00054028%;
+    margin-top: 7px;
+    clear: none;
+    color: rgb(0, 0, 0);
+}
+
+#image14 {
+    float: left;
+    width: 14.905528%;
+    max-width: 100%;
+    height: auto;
+    margin-left: 0.00054028%;
+    margin-top: 7px;
+    clear: none;
+    color: rgb(0, 0, 0);
+}
+
+#image15 {
+    float: left;
+    width: 29.916025%;
+    max-width: 100%;
+    height: auto;
+    margin-left: 34.848288%;
+    margin-top: 1px;
+    clear: both;
+    color: rgb(0, 0, 0);
+}
+
+#Showcase {
+    float: left;
+    width: 100%;
+    height: auto;
+    margin-left: 0%;
+    margin-top: 3px;
+    clear: both;
+    color: rgb(0, 0, 0);
+    background-attachment: scroll;
+    background-image:url("img/Covereno_top_Fireworks_r7_c1_s1.jpg");
+    min-height: 1350px;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: repeat repeat;
+}
+
+#box {
+    float: left;
+    width: 100%;
+    height: auto;
+    margin-left: 0%;
+    margin-top: 0px;
+    clear: both;
+    color: rgb(0, 0, 0);
+    background-image:url("img/Covereno_top_Fireworks_r9_c3_s1.png");
+    min-height: 857px;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+@media only screen and (max-width: 2560px) {
+    #Box {
+        -webkit-background-size: cover;
+        background-size: cover;
+    }
+
+    #Showcase {
+        -webkit-background-size: cover;
+        background-size: cover;
+    }
+
+    #box {
+        -webkit-background-size: cover;
+        background-size: cover;
+    }
+}
+
+@media only screen and (max-width: 1921px) {
+    #Box {
+        -webkit-background-size: cover;
+        background-size: cover;
+    }
+
+    #Showcase {
+        -webkit-background-size: cover;
+        background-size: cover;
+        height: 1200px;
+        min-height: 0px;
+    }
+
+    #box {
+        -webkit-background-size: cover;
+        background-size: cover;
+    }
+}
+
+@media only screen and (max-width: 1600px) {
+    #image4 {
+        width: 40%;
+        margin-top: 9px;
+        margin-left: 9.947266%;
+        clear: both;
+    }
+
+    #Box {
+        margin-top: 0px;
+        margin-left: 0.10253906%;
+        clear: both;
+        width: 100%;
+        -webkit-background-size: cover;
+        background-size: cover;
+        height: 550px;
+        min-height: 0px;
+    }
+
+    #Services {
+        margin-top: 0px;
+        margin-left: 35.076172%;
+        clear: both;
+    }
+
+    #image5 {
+        margin-top: 9px;
+        margin-left: 0%;
+        clear: none;
+        width: 40%;
+    }
+
+    #image6 {
+        margin-top: 0px;
+        margin-left: 9.947266%;
+        clear: both;
+        width: 20%;
+    }
+
+    #image10 {
+        margin-top: 0px;
+        margin-left: 29.947266%;
+        clear: both;
+        width: 40%;
+    }
+
+    #Testimonial {
+        margin-top: 1px;
+        margin-left: 34.996094%;
+        clear: both;
+    }
+
+    #Contact {
+        margin-top: 1px;
+        margin-left: 27.597656%;
+        clear: both;
+    }
+
+    #image11 {
+        margin-top: 7px;
+        margin-left: 10.03125%;
+        clear: both;
+        width: 20%;
+    }
+
+    #image15 {
+        margin-top: 9px;
+        margin-left: 29.961914%;
+        clear: both;
+        width: 40%;
+    }
+
+    #image7 {
+        margin-top: 0px;
+        margin-left: 0.03515625%;
+        clear: none;
+        width: 20%;
+    }
+
+    #image8 {
+        margin-top: 0px;
+        margin-left: 0.03417969%;
+        clear: none;
+        width: 20%;
+    }
+
+    #image9 {
+        margin-top: 1px;
+        margin-left: 0%;
+        clear: none;
+        width: 20%;
+    }
+
+    #image12 {
+        margin-top: 7px;
+        margin-left: 0%;
+        clear: none;
+        width: 20%;
+    }
+
+    #image13 {
+        margin-top: 7px;
+        margin-left: 0%;
+        clear: none;
+        width: 20%;
+    }
+
+    #image14 {
+        margin-top: 7px;
+        margin-left: 0%;
+        clear: none;
+        width: 20%;
+    }
+
+    #Showcase {
+        -webkit-background-size: cover;
+        background-size: cover;
+        height: 1000px;
+    }
+
+    #box {
+        -webkit-background-size: cover;
+        background-size: cover;
+        height: 17.932622%;
+    }
+}
+
+@media only screen and (max-width: 1344px) {
+    #Box {
+        -webkit-background-size: cover;
+        background-size: cover;
+        margin-top: 0px;
+        margin-left: 0.10230655%;
+        clear: both;
+    }
+
+    #Showcase {
+        -webkit-background-size: cover;
+        background-size: cover;
+        height: 800px;
+        margin-top: 3px;
+        margin-left: 0%;
+        clear: both;
+    }
+
+    #box {
+        -webkit-background-size: cover;
+        background-size: cover;
+        margin-top: 0px;
+        margin-left: 0%;
+        clear: both;
+        height: 500px;
+        min-height: 0px;
+    }
+
+    #Services {
+        margin-top: 0px;
+        margin-left: 35.076032%;
+        clear: both;
+    }
+
+    #image4 {
+        margin-top: 9px;
+        margin-left: 9.946987%;
+        clear: both;
+    }
+
+    #image6 {
+        margin-top: 0px;
+        margin-left: 9.946987%;
+        clear: both;
+    }
+
+    #image10 {
+        margin-top: 0px;
+        margin-left: 29.946754%;
+        clear: both;
+    }
+
+    #Testimonial {
+        margin-top: 1px;
+        margin-left: 34.995815%;
+        clear: both;
+    }
+
+    #Contact {
+        margin-top: 1px;
+        margin-left: 27.597191%;
+        clear: both;
+    }
+
+    #image11 {
+        margin-top: 7px;
+        margin-left: 10.030692%;
+        clear: both;
+    }
+
+    #image15 {
+        margin-top: 9px;
+        margin-left: 29.961868%;
+        clear: both;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    #Box {
+        height: 400px;
+        margin-top: 0px;
+        margin-left: 0.1159668%;
+        clear: both;
+    }
+
+    #Showcase {
+        -webkit-background-size: cover;
+        background-size: cover;
+        height: 600px;
+        margin-top: 0px;
+        margin-left: 0.00610352%;
+        clear: both;
+    }
+
+    #box {
+        -webkit-background-size: cover;
+        background-size: cover;
+        height: 350px;
+        margin-top: 0px;
+        margin-left: 0.00610352%;
+        clear: both;
+    }
+
+    #image3 {
+        width: 24%;
+        margin-top: 0px;
+        margin-left: 0.00152588%;
+        clear: none;
+    }
+
+    #image2 {
+        width: 24%;
+        margin-top: 0px;
+        margin-left: 0.11901855%;
+        clear: none;
+    }
+
+    #image1 {
+        width: 24%;
+        margin-top: 0px;
+        margin-left: 0.02593994%;
+        clear: none;
+    }
+
+    #image {
+        width: 24%;
+        margin-top: 0px;
+        margin-left: 2.050781%;
+        clear: none;
+    }
+
+    #Services {
+        margin-top: 0px;
+        margin-left: 25.106812%;
+        clear: both;
+        width: 50%;
+    }
+
+    #image4 {
+        margin-top: 1px;
+        margin-left: 10.153198%;
+        clear: both;
+        width: 80%;
+    }
+
+    #image6 {
+        margin-top: 0px;
+        margin-left: 10.073853%;
+        clear: both;
+        width: 40%;
+    }
+
+    #image10 {
+        margin-top: 0px;
+        margin-left: 25.106812%;
+        clear: both;
+        width: 50%;
+    }
+
+    #Testimonial {
+        margin-top: 0px;
+        margin-left: 25.106812%;
+        clear: both;
+        width: 50%;
+    }
+
+    #Contact {
+        margin-top: 0px;
+        margin-left: 15.292358%;
+        clear: both;
+        width: 70%;
+    }
+
+    #image11 {
+        margin-top: 0px;
+        margin-left: 2.929688%;
+        clear: both;
+        width: 23%;
+        margin-right: 0%;
+    }
+
+    #image15 {
+        margin-top: 0px;
+        margin-left: 25.097656%;
+        clear: both;
+        width: 50%;
+        margin-right: 0%;
+    }
+
+    #image5 {
+        margin-top: 0px;
+        margin-left: 10.153198%;
+        clear: both;
+        width: 80%;
+    }
+
+    #image7 {
+        margin-top: 0px;
+        margin-left: 0.03509521%;
+        clear: none;
+        width: 40%;
+    }
+
+    #image8 {
+        margin-top: 0px;
+        margin-left: 10.165405%;
+        clear: both;
+        width: 40%;
+    }
+
+    #image9 {
+        margin-top: 0px;
+        margin-left: 0.03814697%;
+        clear: none;
+        width: 40%;
+    }
+
+    #image12 {
+        width: 23%;
+        margin-top: 0px;
+        margin-left: 0.43792725%;
+        clear: none;
+        margin-right: 0%;
+    }
+
+    #image14 {
+        width: 23%;
+        margin-top: 0px;
+        margin-left: 0.43792725%;
+        clear: none;
+        margin-right: 0%;
+    }
+
+    #image13 {
+        width: 23%;
+        margin-top: 0px;
+        margin-left: 0.340271%;
+        clear: none;
+        margin-right: 0%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #Box {
+        height: 250px;
+        margin-top: 0px;
+        margin-left: 0.20345052%;
+        clear: both;
+    }
+
+    #image4 {
+        width: 90%;
+        margin-top: 0px;
+        margin-left: 4.412842%;
+        clear: both;
+    }
+
+    #Services {
+        margin-top: 0px;
+        margin-left: 25.130208%;
+        clear: both;
+    }
+
+    #image5 {
+        margin-top: 0px;
+        margin-left: 4.412842%;
+        clear: both;
+        width: 90%;
+    }
+
+    #image6 {
+        margin-top: 0px;
+        margin-left: 4.978434%;
+        clear: both;
+        width: 45%;
+    }
+
+    #image10 {
+        margin-top: 0px;
+        margin-left: 9.62321%;
+        clear: both;
+        width: 80%;
+    }
+
+    #Showcase {
+        margin-top: 0px;
+        margin-left: 0%;
+        clear: both;
+        -webkit-background-size: cover;
+        background-size: cover;
+        height: 450px;
+    }
+
+    #Testimonial {
+        margin-top: 0px;
+        margin-left: 25.130208%;
+        clear: both;
+        width: 50%;
+    }
+
+    #Contact {
+        margin-top: 0px;
+        margin-left: 10.15625%;
+        clear: both;
+        width: 80%;
+        margin-right: 0%;
+    }
+
+    #image11 {
+        margin-top: 0px;
+        margin-left: 5.106608%;
+        clear: both;
+        width: 45%;
+    }
+
+    #image15 {
+        margin-top: 0px;
+        margin-left: 10.257975%;
+        clear: both;
+        width: 80%;
+    }
+
+    #image7 {
+        margin-top: 0px;
+        margin-left: 0%;
+        clear: none;
+        width: 45%;
+    }
+
+    #image8 {
+        margin-top: 0px;
+        margin-left: 5.108643%;
+        clear: both;
+        width: 45%;
+    }
+
+    #image9 {
+        margin-top: 0px;
+        margin-left: 0.27669271%;
+        clear: none;
+        width: 45%;
+    }
+
+    #image12 {
+        margin-top: 0px;
+        margin-left: 0.20751953%;
+        clear: none;
+        width: 45%;
+    }
+
+    #image13 {
+        margin-top: 8px;
+        margin-left: 5.181885%;
+        clear: both;
+        width: 45%;
+        margin-right: 0%;
+    }
+
+    #image14 {
+        margin-top: 8px;
+        margin-left: 0.03662109%;
+        clear: none;
+        width: 45%;
+        margin-right: 0%;
+    }
+
+    #image {
+        width: 24%;
+        margin-top: 0px;
+        margin-left: 2.032471%;
+        clear: none;
+    }
+
+    #image1 {
+        margin-top: 0px;
+        margin-left: 0%;
+        clear: none;
+        width: 24%;
+    }
+
+    #image2 {
+        margin-top: 0px;
+        margin-left: 0%;
+        clear: none;
+        width: 24%;
+    }
+
+    #image3 {
+        margin-top: 0px;
+        margin-left: 0%;
+        clear: none;
+        width: 24%;
+    }
+
+    #box {
+        -webkit-background-size: cover;
+        background-size: cover;
+        height: 320px;
+        margin-top: 0px;
+        margin-left: 0%;
+        clear: both;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    #Showcase {
+        height: 400px;
+        margin-top: 0px;
+        margin-left: 0%;
+        clear: both;
+    }
+
+    #image4 {
+        display: block;
+        width: auto;
+        margin-top: 0px;
+        margin-left: 0%;
+        clear: both;
+    }
+
+    #Services {
+        width: 60%;
+        margin-top: 0px;
+        margin-left: 19.477539%;
+        clear: both;
+    }
+
+    #image5 {
+        width: auto;
+        margin-top: 0px;
+        margin-left: 0.10009766%;
+        clear: both;
+    }
+
+    #Box {
+        margin-top: 0px;
+        margin-left: 0.10009766%;
+        clear: both;
+    }
+
+    #image6 {
+        margin-top: 0px;
+        margin-left: 8.48877%;
+        clear: both;
+        width: 40%;
+    }
+
+    #image10 {
+        margin-top: 0px;
+        margin-left: 8.48877%;
+        clear: both;
+        width: 80%;
+    }
+
+    #Testimonial {
+        margin-top: 0px;
+        margin-left: 19.477539%;
+        clear: both;
+        width: 60%;
+    }
+
+    #box {
+        margin-top: 0px;
+        margin-left: 0%;
+        clear: both;
+        width: 100%;
+        height: 280px;
+    }
+
+    #Contact {
+        margin-top: 0px;
+        margin-left: 0%;
+        clear: both;
+        width: 100%;
+    }
+
+    #image11 {
+        margin-top: 1px;
+        margin-left: 10.380859%;
+        clear: both;
+        margin-right: 0%;
+        width: 40%;
+    }
+
+    #image12 {
+        margin-top: 1px;
+        margin-left: 0%;
+        clear: none;
+        margin-right: 0%;
+        width: 40%;
+    }
+
+    #image15 {
+        margin-top: 0px;
+        margin-left: 10.15625%;
+        clear: both;
+        width: 80%;
+    }
+
+    #image7 {
+        margin-top: 0px;
+        margin-left: 0%;
+        clear: none;
+        width: 40%;
+        margin-right: 0%;
+    }
+
+    #image8 {
+        margin-top: 0px;
+        margin-left: 8.48877%;
+        clear: both;
+        width: 40%;
+        margin-right: 0%;
+    }
+
+    #image9 {
+        margin-top: 0px;
+        margin-left: 0%;
+        clear: none;
+        width: 40%;
+    }
+
+    #image14 {
+        margin-top: 6.46875px;
+        margin-left: 0%;
+        clear: none;
+        margin-right: 0%;
+        width: 40%;
+    }
+
+    #image13 {
+        margin-top: 6.46875px;
+        margin-left: 10.380859%;
+        clear: both;
+        margin-right: 0%;
+        width: 40%;
+    }
+
+    #image {
+        width: 22%;
+        margin-top: 0px;
+        margin-left: 6.09375%;
+        clear: none;
+    }
+
+    #image1 {
+        width: 22%;
+    }
+
+    #image2 {
+        width: 22%;
+    }
+
+    #image3 {
+        width: 22%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    #image {
+        width: 24%;
+        margin-top: 0px;
+        margin-left: 2.291667%;
+        clear: none;
+    }
+
+    #Box {
+        width: 100%;
+        margin-top: 0px;
+        margin-left: 0.22135417%;
+        clear: both;
+        height: 230px;
+    }
+
+    #image2 {
+        width: 24%;
+        margin-top: 0px;
+        margin-left: 0.16927083%;
+        clear: none;
+    }
+
+    #image3 {
+        width: 24%;
+        margin-top: 0px;
+        margin-left: 0.16927083%;
+        clear: none;
+    }
+
+    #image1 {
+        width: 24%;
+        margin-top: 0px;
+        margin-left: -0.0390625%;
+        clear: none;
+    }
+
+    #Services {
+        margin-top: 0px;
+        margin-left: 19.69401%;
+        clear: both;
+        width: 60%;
+    }
+
+    #image4 {
+        margin-top: 0px;
+        margin-left: 0.11393229%;
+        clear: both;
+        width: 100%;
+    }
+
+    #image5 {
+        margin-top: 0px;
+        margin-left: 0.32226563%;
+        clear: both;
+        width: 100%;
+    }
+
+    #image6 {
+        margin-top: 0px;
+        margin-left: 2.405599%;
+        clear: both;
+        width: 48%;
+    }
+
+    #image10 {
+        margin-top: 0px;
+        margin-left: 0.12044271%;
+        clear: both;
+        width: 100%;
+    }
+
+    #Showcase {
+        margin-top: 0px;
+        margin-left: 0.12044271%;
+        clear: both;
+        -webkit-background-size: cover;
+        background-size: cover;
+        height: 320px;
+    }
+
+    #Testimonial {
+        margin-top: 0px;
+        margin-left: 19.69401%;
+        clear: both;
+        width: 60%;
+    }
+
+    #Contact {
+        margin-top: 0px;
+        margin-left: 10.309245%;
+        clear: both;
+        width: 80%;
+    }
+
+    #image11 {
+        margin-top: 0px;
+        margin-left: 2.405599%;
+        clear: both;
+        width: 48%;
+    }
+
+    #image12 {
+        margin-top: 1px;
+        margin-left: 0.09114583%;
+        clear: none;
+        width: 48%;
+    }
+
+    #image15 {
+        margin-top: 0px;
+        margin-left: 0.2734375%;
+        clear: both;
+        width: 100%;
+    }
+
+    #image8 {
+        margin-top: 0px;
+        margin-left: 2.405599%;
+        clear: both;
+        width: 48%;
+    }
+
+    #image9 {
+        margin-top: 0px;
+        margin-left: 0.00976563%;
+        clear: none;
+        width: 48%;
+    }
+
+    #image7 {
+        margin-top: 0px;
+        margin-left: 0.09114583%;
+        clear: none;
+        width: 48%;
+    }
+
+    #image13 {
+        margin-top: 0px;
+        margin-left: 2.291667%;
+        clear: both;
+        width: 48%;
+        margin-right: 0%;
+    }
+
+    #image14 {
+        margin-top: 0px;
+        margin-left: 0.37434896%;
+        clear: none;
+        margin-right: 0%;
+        width: 48%;
+    }
+
+    #box {
+        -webkit-background-size: cover;
+        background-size: cover;
+        height: 220px;
+        margin-top: 0px;
+        margin-left: 0.00651042%;
+        clear: both;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    #Services {
+        width: 80%;
+        margin-top: 0px;
+        margin-left: 10.302734%;
+        clear: both;
+    }
+
+    #image2 {
+        margin-top: 0px;
+        margin-left: 2.167969%;
+        clear: both;
+        width: 48%;
+    }
+
+    #Box {
+        margin-top: 0px;
+        margin-left: 0.21484375%;
+        clear: both;
+        height: 150px;
+    }
+
+    #image4 {
+        margin-top: 0px;
+        margin-left: 0.10742188%;
+        clear: both;
+        width: 100%;
+    }
+
+    #image5 {
+        margin-top: 0px;
+        margin-left: 0.3125%;
+        clear: both;
+    }
+
+    #image6 {
+        margin-top: 0px;
+        margin-left: 2.402344%;
+        clear: both;
+    }
+
+    #image8 {
+        margin-top: 0px;
+        margin-left: 2.402344%;
+        clear: both;
+    }
+
+    #image10 {
+        margin-top: 0px;
+        margin-left: 0.11230469%;
+        clear: both;
+    }
+
+    #Showcase {
+        margin-top: 0px;
+        margin-left: 0.11230469%;
+        clear: both;
+        height: 200px;
+    }
+
+    #Testimonial {
+        margin-top: 0px;
+        margin-left: 10.205078%;
+        clear: both;
+        width: 80%;
+    }
+
+    #Contact {
+        margin-top: 0px;
+        margin-left: 0%;
+        clear: both;
+        width: 100%;
+    }
+
+    #image11 {
+        margin-top: 0px;
+        margin-left: 2.402344%;
+        clear: both;
+    }
+
+    #image14 {
+        margin-top: 0px;
+        margin-left: 0.38574219%;
+        clear: none;
+    }
+
+    #image15 {
+        margin-top: 0px;
+        margin-left: 0.22460937%;
+        clear: both;
+    }
+
+    #box {
+        -webkit-background-size: cover;
+        background-size: cover;
+        height: 180px;
+        margin-top: 0px;
+        margin-left: 0%;
+        clear: both;
+    }
+
+    #image {
+        width: 48%;
+    }
+
+    #image1 {
+        width: 48%;
+    }
+
+    #image3 {
+        width: 48%;
+    }
+
+    #image13 {
+        margin-top: 0px;
+        margin-left: 2.290039%;
+        clear: both;
+    }
+}
+

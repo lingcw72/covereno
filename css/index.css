@@ -1,0 +1,145 @@
+.version.index /* version checker */
+{
+	color: #000005;
+	background-color: #99F1B9;
+}
+
+.html
+{
+	background-color: #FFFFFF;
+}
+
+#page
+{
+	z-index: 1;
+	width: 0px;
+	min-height: 0px;
+	background-image: none;
+	border-style: none;
+	border-color: #000000;
+	background-color: transparent;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 105px 2405px 1084px 155px;
+}
+
+#slideshowu509
+{
+	z-index: 2;
+	width: 0.01px;
+	height: 0px;
+	position: relative;
+}
+
+#u524
+{
+	position: absolute;
+	background-color: transparent;
+}
+
+#u524popup
+{
+	z-index: 3;
+}
+
+#u525
+{
+	z-index: 4;
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+}
+
+#u602
+{
+	z-index: 6;
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+}
+
+#u611
+{
+	z-index: 8;
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+}
+
+#u620
+{
+	z-index: 10;
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+}
+
+#u629
+{
+	z-index: 12;
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+}
+
+#u638
+{
+	z-index: 14;
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+}
+
+#u647
+{
+	z-index: 16;
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+}
+
+#u656
+{
+	z-index: 18;
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+}
+
+#u665
+{
+	z-index: 20;
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+}
+
+#u674
+{
+	z-index: 22;
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+}
+
+.SSFirstButton,.SSPreviousButton,.SSNextButton,.SSLastButton,.SSSlideLink,.SSCloseButton /* slideshowFreeStyle */
+{
+	cursor: pointer;
+}
+
+.SSSlideLoading /* slideshowFreeStyle */
+{
+	background: url("../images/loading.gif") no-repeat center center;
+}
+
+body
+{
+	position: relative;
+	min-width: 2560px;
+}
+
+#page .verticalspacer
+{
+	clear: both;
+}
+

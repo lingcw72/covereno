@@ -1,0 +1,40 @@
+<manifest alg="2" build="2015.0.2.310" opt="true" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" domain="c.com" resolutions="1x" timestamp="1442630969145">
+  <folder name="css">
+    <file name="site_global.css" crc="4052507572"/>
+    <file name="index.css" crc="93974969" ref="index"/>
+    <file name="covereno_testimonial.css" crc="3793540112" ref="covereno_testimonial"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="196614522" ref="index:covereno_testimonial"/>
+    <file name="museutils.js" crc="275725342" ref="index:covereno_testimonial"/>
+    <file name="webpro.js" crc="3883484123" ref="index:covereno_testimonial"/>
+    <file name="musewpslideshow.js" crc="360574455" ref="index:covereno_testimonial"/>
+    <file name="jquery.museoverlay.js" crc="342093292" ref="index:covereno_testimonial"/>
+    <file name="touchswipe.js" crc="4218319045" ref="index:covereno_testimonial"/>
+    <file name="jquery.watch.js" crc="3999102769" ref="index:covereno_testimonial"/>
+  </folder>
+  <folder name="images">
+    <file name="covereno_slide_1.jpg" crc="4153919924" seo="true" ref="index"/>
+    <file name="blank.gif" crc="4208392903" ref="index:covereno_testimonial"/>
+    <file name="covereno_slide_8.jpg" crc="25369377" seo="true" ref="index"/>
+    <file name="covereno_slide_10.jpg" crc="25369377" seo="true" ref="index"/>
+    <file name="covereno_slide_9.jpg" crc="447004876" seo="true" ref="index"/>
+    <file name="covereno_slide_7.jpg" crc="3957044429" seo="true" ref="index"/>
+    <file name="covereno_slide_6.jpg" crc="4066361893" seo="true" ref="index"/>
+    <file name="covereno_slide_5.jpg" crc="350548242" seo="true" ref="index"/>
+    <file name="covereno_slide_4.jpg" crc="443780235" seo="true" ref="index"/>
+    <file name="covereno_slide_3.jpg" crc="3246473" seo="true" ref="index"/>
+    <file name="covereno_slide_2.jpg" crc="3791828349" seo="true" ref="index"/>
+    <file name="loading.gif" crc="3815509949" ref="index:covereno_testimonial"/>
+    <file name="ceverreno_testimonial_2.jpg" crc="3949015471" seo="true" ref="covereno_testimonial"/>
+    <file name="ceverreno_testimonial_4.jpg" crc="3949015471" seo="true" ref="covereno_testimonial"/>
+    <file name="ceverreno_testimonial_6.jpg" crc="3949015471" seo="true" ref="covereno_testimonial"/>
+    <file name="ceverreno_testimonial_8.jpg" crc="3949015471" seo="true" ref="covereno_testimonial"/>
+    <file name="ceverreno_testimonial_1.jpg" crc="300755235" seo="true" ref="covereno_testimonial"/>
+    <file name="ceverreno_testimonial_3.jpg" crc="300755235" seo="true" ref="covereno_testimonial"/>
+    <file name="ceverreno_testimonial_5.jpg" crc="300755235" seo="true" ref="covereno_testimonial"/>
+    <file name="ceverreno_testimonial_7.jpg" crc="300755235" seo="true" ref="covereno_testimonial"/>
+  </folder>
+  <file name="index.html" crc="78069946" seo="true" mt="1442630953284" redirect="true"/>
+  <file name="covereno_testimonial.html" crc="3927613784" seo="true" mt="1442630800193" redirect="true"/>
+</manifest>
