@@ -1,0 +1,245 @@
+:root {
+  --primary: #1f2933;
+  --accent: #c9a24d;
+  --light: #f8f9fa;
+  --text: #333;
+  --muted: #6b7280;
+  --max-width: 1100px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+  line-height: 1.6;
+  color: var(--text);
+  background: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  max-width: var(--max-width);
+  margin: auto;
+  padding: 0 1.2rem;
+}
+
+/* ================= HEADER / NAV ================= */
+
+header {
+  background: white;
+  border-bottom: 1px solid #e5e7eb;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 64px;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.logo span {
+  color: var(--accent);
+}
+
+.nav-links {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links a {
+  font-size: 0.95rem;
+  color: var(--muted);
+}
+
+.nav-links a:hover {
+  color: var(--primary);
+}
+
+/* Hamburger */
+.menu-toggle {
+  display: none;
+  font-size: 1.6rem;
+  cursor: pointer;
+}
+
+/* ================= HERO ================= */
+
+.hero {
+  background:
+    linear-gradient(rgba(31,41,51,.7), rgba(31,41,51,.7)),
+    url("images/hero.jpg") center / cover no-repeat;
+  color: white;
+  padding: 5rem 0;
+}
+
+.hero h1 {
+  font-size: 2.2rem;
+  max-width: 700px;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  max-width: 650px;
+  color: #e5e7eb;
+  margin-bottom: 2rem;
+}
+
+.btn {
+  display: inline-block;
+  padding: .75rem 1.4rem;
+  border-radius: 4px;
+  font-weight: 600;
+}
+
+.btn-primary {
+  background: var(--accent);
+  color: var(--primary);
+}
+
+.btn-outline {
+  border: 1px solid #fff;
+  margin-left: .75rem;
+}
+
+/* ================= SHOWCASE CAROUSEL ================= */
+
+.carousel {
+  position: relative;
+  overflow: hidden;
+  max-width: 900px;
+  margin: 2rem auto;
+}
+
+.carousel-track {
+  display: flex;
+  transition: transform 0.4s ease;
+}
+
+.carousel-slide {
+  min-width: 100%;
+}
+
+.carousel-slide img {
+  width: 100%;
+  display: block;
+  border-radius: 6px;
+}
+
+.carousel-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0,0,0,.6);
+  color: white;
+  border: none;
+  font-size: 1.5rem;
+  padding: .4rem .8rem;
+  cursor: pointer;
+}
+
+.carousel-btn.prev { left: 10px; }
+.carousel-btn.next { right: 10px; }
+
+/* ================= FAQ ================= */
+
+.faq-section {
+  max-width: 800px;
+}
+
+.faq-item {
+  padding: 1.5rem 0;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.faq-item h3 {
+  margin-bottom: .5rem;
+  font-size: 1.05rem;
+}
+
+/* ================= FOOTER ================= */
+
+footer {
+  border-top: 1px solid #e5e7eb;
+  margin-top: 4rem;
+  padding: 1.5rem 0;
+  font-size: .85rem;
+  color: var(--muted);
+}
+
+/* ================= WHATSAPP ================= */
+
+.whatsapp-float {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 56px;
+  height: 56px;
+  background: #25d366;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+}
+
+.whatsapp-float svg {
+  width: 28px;
+  fill: white;
+}
+
+/* ================= MOBILE ================= */
+
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+    position: absolute;
+    top: 64px;
+    right: 0;
+    background: white;
+    flex-direction: column;
+    width: 100%;
+    border-bottom: 1px solid #e5e7eb;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+
+  .hero h1 {
+    font-size: 1.8rem;
+  }
+
+  .container {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+/* =========================
+   Mobile Safe Area Support
+   ========================= */
+
+body {
+  padding-left: env(safe-area-inset-left);
+  padding-right: env(safe-area-inset-right);
+}
+}
