@@ -1,136 +1,118 @@
+# Cove Reno
 
-# Cove Reno Website
+Official website repository for **Cove Reno**, a Singapore-based **HDB Registered Renovation Contractor** specialising in interior renovation and custom carpentry works.
 
-This repository contains the source code for the **Cove Reno** website — a Singapore-based **HDB registered renovation and carpentry contractor**.
-
-The site is built using **pure HTML, CSS, and JavaScript**, with an emphasis on:
-- Mobile-first design
-- Performance and simplicity
-- SEO best practices
-- Easy maintenance and deployment
+This repository contains a **pure static website** built with **HTML, CSS, and vanilla JavaScript** — no frameworks, no build tools, and no backend dependencies.
 
 ---
 
-## 🌐 Live Site
+## 🌐 Live Website
 
-**Production:** https://covereno.com.sg  
-*(Hosted on Cloudflare Pages)*
+👉 [https://www.covereno.com.sg](https://www.covereno.com.sg)
 
 ---
 
-## 📁 Project Structure
+## 📌 Project Overview
+
+- **Type:** Static marketing website
+- **Stack:** HTML / CSS / JavaScript (no build step)
+- **Deployment:** GitHub Pages or Cloudflare Pages
+- **Target Audience:** Homeowners in Singapore (HDB & private homes)
+- **SEO:** Optimised with structured data, Open Graph, and sitemap
+
+---
+
+## 📂 Project Structure
+
 ```
-/
-├─ index.html
-├─ services.html
-├─ about.html
-├─ showcase.html
-├─ faq.html
-├─ contact.html
-├─ styles.css
-├─ script.js
-├─ sitemap.xml
+covereno/
+├─ index.html          # Home
+├─ services.html       # Services
+├─ showcase.html       # Project portfolio
+├─ about.html          # Company profile
+├─ faq.html            # FAQ (with FAQ schema)
+├─ contact.html        # Contact details
 ├─ robots.txt
-└─ images/
+├─ sitemap.xml
+│
+├─ css/
+│  └─ base.css         # Global styles
+│
+├─ js/
+│  ├─ include.js       # Header/footer loader
+│  ├─ nav.js           # Mobile navigation logic
+│  └─ showcase.js      # Showcase modal & carousel
+│
+├─ partials/
+│  ├─ header.html      # Shared header
+│  └─ footer.html      # Shared footer
+│
+└─ assets/
+   └─ images/           # Logos, icons, project photos
 ```
+
+---
+
+## ✨ Key Features
+
+- Responsive layout (desktop / tablet / mobile)
+- Mobile hamburger navigation with accessibility support
+- Reusable header & footer via JS partial loading
+- SEO-ready:
+  - Canonical URLs
+  - Open Graph & Twitter Cards
+  - Structured data (FAQPage, LocalBusiness, CollectionPage)
+- Accessible showcase modal:
+  - Keyboard navigation
+  - Focus management
+  - ARIA attributes
+- Lightweight and fast (no framework overhead)
+
 ---
 
 ## 🚀 Deployment
 
-This website is designed to be deployed as a **static site** using **Cloudflare Pages**.
+### GitHub Pages
 
-### Recommended setup
-- **Source control:** GitHub (private repository)
-- **Hosting:** Cloudflare Pages
-- **Framework preset:** None
-- **Build command:** Not required
-- **Build output directory:** `/`
+1. Push to `main` branch
+2. Go to **Settings → Pages**
+3. Source: `Deploy from a branch`
+4. Branch: `main` / Root `/`
+5. No build command required
 
-Cloudflare Pages automatically handles:
-- HTTPS / SSL
-- Global CDN
-- Custom domain (`cove.ling.casa`)
+### Cloudflare Pages (Recommended)
 
----
-
-## 🧪 Development & Testing
-
-During testing or staging, search engine indexing can be disabled by adding the following meta tag to all pages:
-
-```html
-<meta name="robots" content="noindex, nofollow">
-````
-
-⚠️ Remember to remove this tag before production launch.
+- Framework preset: **None**
+- Build command: *(leave empty)*
+- Output directory: `/`
 
 ---
 
-## **🔍 SEO & Structured Data**
+## 🛠 Development Notes
 
-  
-
-The site includes:
-
-- Page-specific meta titles and descriptions
-- Canonical URLs
-- Open Graph tags
-- sitemap.xml and robots.txt
-- Structured data (JSON-LD):
-    - LocalBusiness schema (with UEN and HDB registration wording)
-    - FAQPage schema
-    - Review schema (testimonials)
-    - ContactPoint schema
+- This is a **static site** — no Node.js, no npm, no bundlers
+- All paths are root-relative (`/css/base.css`) for portability
+- Header and footer are injected dynamically using `include.js`
+- JavaScript is written defensively to avoid race conditions
 
 ---
 
-## **📱 Mobile Support**
+## 📄 License
 
-- Responsive layout
-- Mobile hamburger navigation
-- Touch-friendly spacing
-- WhatsApp floating call-to-action
-
-  
-
-The site is designed to be **light-mode only**, optimised for clarity and trust.
+This project is proprietary and maintained for Cove Reno. All rights reserved unless stated otherwise.
 
 ---
 
-## **🛠️ Tech Stack**
+## 📞 Contact
 
-- HTML5
-- CSS3
-- Vanilla JavaScript
-- No frameworks
-- No build tools
+**Cove Reno**\
+Singapore\
+📱 +65 9220 7788\
+📧 [joetan@covereno.com.sg](mailto\:joetan@covereno.com.sg)
 
----
-
-## **🔐 Repository & License**
-
-This repository is **private** and intended for the exclusive use of **Cove Reno**.
-
-All content and source code are proprietary.
-
-```
-© 2025 Cove Reno. All rights reserved.
-```
+Facebook: [https://www.facebook.com/profile.php?id=100054213051925](https://www.facebook.com/profile.php?id=100054213051925)
 
 ---
 
-## **📌 Notes**
+Built with a focus on **clarity, performance, and long-term maintainability**.
 
-- CSS and JavaScript files are intentionally kept at the root for simplicity.
-- Folder structure can be expanded later if the site grows.
-- Images should be optimised (WebP recommended) before production use.
-
----
-
-## **✅ Status**
-
-- ✔ Mobile-friendly
-- ✔ SEO-ready
-- ✔ Cloudflare Pages compatible
-- ✔ Production-ready static site
-# covereno
-Official static website for Cove Reno, a Singapore HDB registered renovation contractor. Mobile-friendly, SEO-ready, and optimised for Cloudflare Pages.

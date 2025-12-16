@@ -2,72 +2,151 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="robots" content="noindex, nofollow">
 
-  <title>Renovation Works & Carpentry Projects | Cove Reno</title>
+  <!-- Primary SEO -->
+  <title>Renovation Works & Carpentry Projects in Singapore | Cove Reno</title>
   <meta name="description"
-        content="View renovation and carpentry works completed by Cove Reno for HDB and private homes in Singapore." />
+        content="Explore renovation and carpentry projects completed by Cove Reno across Singapore, including HDB flats, kitchens, bathrooms, custom carpentry, and condo renovations.">
 
-  <link rel="canonical" href="https://www.covereno.com.sg/showcase.html" />
-  <link rel="stylesheet" href="styles.css">
+  <!-- Viewport -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://www.covereno.com.sg/showcase.html">
+
+  <!-- Robots -->
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph (Facebook / WhatsApp / LinkedIn) -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Renovation Works & Carpentry Projects | Cove Reno">
+  <meta property="og:description"
+        content="View completed renovation and carpentry works by Cove Reno for HDB and private homes in Singapore.">
+  <meta property="og:url" content="https://www.covereno.com.sg/showcase.html">
+  <meta property="og:site_name" content="Cove Reno">
+  <meta property="og:image" content="https://www.covereno.com.sg/assets/og/showcase.webp">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Renovation Works & Carpentry Projects | Cove Reno">
+  <meta name="twitter:description"
+        content="Browse Cove Reno’s renovation and carpentry portfolio across Singapore.">
+  <meta name="twitter:image" content="https://www.covereno.com.sg/assets/og/showcase.webp">
+
+  <!-- Structured Data: Portfolio / Projects -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "Cove Reno Renovation & Carpentry Projects",
+    "description": "A showcase of renovation and carpentry projects completed by Cove Reno in Singapore.",
+    "url": "https://www.covereno.com.sg/showcase.html",
+    "about": {
+      "@type": "HomeAndConstructionBusiness",
+      "name": "Cove Reno",
+      "url": "https://www.covereno.com.sg/"
+    }
+  }
+  </script>
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/base.css">
 </head>
+
 <body>
 
-<header>
-  <div class="container navbar">
-    <div class="logo">Cove<span>Reno</span></div>
-    <div class="menu-toggle">☰</div>
-    <nav class="nav-links">
-      <a href="index.html">Home</a>
-      <a href="services.html">Services</a>
-      <a href="about.html">About</a>
-      <a href="showcase.html">Showcase</a>
-      <a href="faq.html">FAQ</a>
-      <a href="contact.html">Contact</a>
-    </nav>
-  </div>
-</header>
+  <div id="site-header"></div>
 
-<section class="container" style="padding:4rem 0;">
-  <h1>Our Works</h1>
-  <p style="margin-top:1rem;">
-    A selection of renovation and carpentry projects completed by Cove Reno.
-  </p>
+  <main>
+    <section>
+      <div class="page-padding">
+        <div class="container">
 
-  <div class="carousel">
-    <div class="carousel-track">
-      <div class="carousel-slide">
-        <img src="images/showcase1.jpg" alt="Kitchen cabinet renovation in HDB flat">
+          <h1>Showcase</h1>
+
+          <!-- PROJECT GRID -->
+          <div class="projects-grid">
+
+            <!-- Project 1 -->
+            <button
+              class="project-card"
+              data-project="project-1"
+              aria-label="View project: 4-Room HDB Punggol"
+            >
+              <img src="assets/images/projects/p1/cover.jpg" alt="4-Room HDB renovation in Punggol">
+              <span class="project-label">4-Room HDB · Punggol</span>
+            </button>
+
+            <!-- Project 2 -->
+            <button
+              class="project-card"
+              data-project="project-2"
+              aria-label="View project: Bathroom Renovation"
+            >
+              <img src="assets/images/projects/p2/cover.jpg" alt="Bathroom renovation project">
+              <span class="project-label">Bathroom Renovation</span>
+            </button>
+
+            <!-- Project 3 -->
+            <button
+              class="project-card"
+              data-project="project-3"
+              aria-label="View project: Custom Carpentry"
+            >
+              <img src="assets/images/projects/p3/cover.jpg" alt="Custom carpentry works">
+              <span class="project-label">Custom Carpentry</span>
+            </button>
+
+            <!-- Project 4 -->
+            <button
+              class="project-card"
+              data-project="project-4"
+              aria-label="View project: Kitchen Revamp Bukit Panjang"
+            >
+              <img src="assets/images/projects/p4/cover.jpg" alt="Kitchen revamp in Bukit Panjang">
+              <span class="project-label">Kitchen Revamp · Bukit Panjang</span>
+            </button>
+
+            <!-- Project 5 -->
+            <button
+              class="project-card"
+              data-project="project-5"
+              aria-label="View project: Resale Condo Renovation"
+            >
+              <img src="assets/images/projects/p5/cover.jpg" alt="Condo renovation in Pasir Ris">
+              <span class="project-label">Condo · Pasir Ris</span>
+            </button>
+
+          </div>
+
+        </div>
       </div>
-      <div class="carousel-slide">
-        <img src="images/showcase2.jpg" alt="Custom wardrobe carpentry in Singapore">
+    </section>
+  </main>
+
+  <!-- PROJECT MODAL -->
+  <div class="project-modal" aria-hidden="true">
+    <div class="project-modal-inner">
+
+      <button class="project-close" aria-label="Close project">×</button>
+
+      <div class="project-text">
+        <h2 id="project-title"></h2>
+        <p id="project-desc"></p>
       </div>
-      <div class="carousel-slide">
-        <img src="images/showcase3.jpg" alt="Built-in cabinet correction project">
+
+      <div class="project-carousel">
+        <button class="carousel-btn prev" aria-label="Previous image">‹</button>
+        <img id="project-image" src="" alt="">
+        <button class="carousel-btn next" aria-label="Next image">›</button>
       </div>
+
     </div>
-
-    <button class="carousel-btn prev">&#10094;</button>
-    <button class="carousel-btn next">&#10095;</button>
   </div>
-</section>
 
-<footer>
-  <div class="container">
-    © 2025 Cove Reno | UEN: 53209690L | HDB Registered Renovation Contractor
-  </div>
-</footer>
+  <div id="site-footer"></div>
 
-<a href="https://wa.me/6592207788"
-   class="whatsapp-float"
-   target="_blank"
-   aria-label="Chat with Cove Reno on WhatsApp">
-  <svg viewBox="0 0 32 32">
-    <path d="M16.03 3C9.39 3 4 8.38 4 15.02c0 2.65.87 5.09 2.34 7.07L4 29l7.1-2.29c1.91 1.04 4.1 1.63 6.4 1.63 6.64 0 12.03-5.38 12.03-12.02C28.06 8.38 22.67 3 16.03 3z"/>
-  </svg>
-</a>
-
-<script src="script.js"></script>
+  <script src="js/include.js"></script>
+  <script src="js/showcase.js"></script>
 </body>
 </html>
