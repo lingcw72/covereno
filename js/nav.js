@@ -3,7 +3,7 @@ function initMobileNav() {
   const backdrop = document.querySelector('.nav-backdrop');
   const mobileLinks = document.querySelectorAll('.mobile-nav a');
 
-  // Header not injected yet
+  // Header not injected yet (safety guard)
   if (!toggle || !backdrop) return;
 
   // Toggle menu
@@ -52,5 +52,8 @@ function initMobileNav() {
     });
 }
 
-// Run safely after DOM is ready
-document.addEventListener('DOMContentLoaded', initMobileNav);
+/* 🔑 IMPORTANT:
+   nav.js is loaded AFTER header injection,
+   so we call it immediately.
+*/
+initMobileNav();
